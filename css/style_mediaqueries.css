@@ -1,0 +1,50 @@
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+
+@media (max-width: 1024px) {
+
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .main-container {
+        padding: 0;
+    }   
+
+    /****** HEADER ******/
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-list-li {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        padding-top: 0;
+        padding-bottom: 15px;
+        width: 50%;
+    }
+
+    .li-first {
+        margin-right: 0;
+    }
+
+    nav li {
+        border-bottom: solid 2px transparent;
+        border-top: 0;
+
+    }
+
+    nav li:hover {
+        border-top: 0;
+        border-bottom: solid 2px #0065FC;
+        cursor: pointer;
+    }
+}
