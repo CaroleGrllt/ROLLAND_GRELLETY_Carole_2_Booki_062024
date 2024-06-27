@@ -4,7 +4,34 @@
 /* Medium devices (tablets, less/equal than 1024px) */
 
 @media (max-width: 1024px) {
+    .search-third-container {
+        flex-direction: column;        
+        align-items: flex-start;
+    }
 
+    .third-container-content {
+        margin-bottom: 20px;
+    }
+
+    .third-container-content p {
+        margin: 0;
+    }
+
+    .button-span-text {
+        font-size: 16px;
+    }
+
+    .filter-buttons {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 15px;
+    }
+
+    .filter-buttons button {
+        margin-right: 0;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -47,4 +74,63 @@
         border-bottom: solid 2px #0065FC;
         cursor: pointer;
     }
+
+        /****** SECTION RECHERCHE ******/
+
+        .search {
+            padding: 0 20px;
+        }
+    
+        .search-first-container {
+            margin: 30px 0 35px;
+        }
+    
+        form {
+            width: 100%;
+            height: 49px;
+            display: flex;
+            max-width: 768px;
+        }
+    
+        input {
+            padding: 0 12px;
+            max-width: 768px;
+        }
+    
+        .span-text {
+            display: none;
+        }
+    
+        .hide {
+            display: block;
+        }
+    
+        form button {
+            border-radius: 15px;
+        }
+    
+        .search-third-container p {
+            font-size: 18px;
+        }
+    
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    
+        .filter-buttons button {
+            margin: 0;
+            width: 48%;
+        }
+    
+        .button-span-text {
+            font-size: 14px;
+        }
+    
+        .search-fourth-container {
+            margin-bottom: 35px;
+        }
+    
+
 }
