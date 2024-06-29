@@ -107,4 +107,65 @@
         .search-fourth-container {
             margin-bottom: 35px;
         }
+
+        /****** SECTION ACCOMODATIONS ET POPULAR ***********/
+        .accomodations-and-popular {
+            flex-direction: column-reverse;
+        }
+    
+        /****** Populaires ***********/ 
+    
+        .accomodations-and-popular .background2 {
+            border-radius: 0;
+            box-sizing: border-box;
+            margin-top: 0;
+            padding: 30px 20px;
+        }
+    
+        .populaires-cards {
+            flex-direction: column;
+        }
+    
+        .populaires-cards .card {
+            width: auto;
+            margin: 15px 0 0;
+            gap: 15px;
+        }
+    
+        .card a {
+            width: 100%;
+        }
+    
+        /****** Hebergements ***********/
+        .accomodations-and-popular .background1 {
+            background-color: white;
+            padding: 35px 20px 20px;
+        }
+    
+        .accomodations h2 {
+            margin: 0 0 15px;
+        }
+    
+        .accomodations-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+    
+
+    /****** FOOTER ******/
+    footer {
+        padding: 30px;
+    }
+
+    .footer-container {
+        grid-gap: 50px;
+        grid-template-columns: 1fr;
+    }
+
+    .conditions-content {
+        padding-left: 0;
+    }
+
 }
