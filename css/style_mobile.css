@@ -153,6 +153,17 @@
             margin-bottom: 15px;
         }
     
+            /*** SECTION ACTIVITES ***/
+    .activities {
+        margin-top: 35px;
+    }
+
+    .activities-container-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
 
     /****** FOOTER ******/
     footer {

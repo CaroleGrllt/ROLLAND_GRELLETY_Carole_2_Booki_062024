@@ -57,5 +57,13 @@
         margin-top: 20px;
     }
 
+        /*** SECTION ACTIVITES ***/
+        .activities-container-content-articles img {
+            height: 200px;
+        }
+    
+        .activities-container-content-articles h3 {
+            margin: 22.5px 19px;
+        }
 }
 
