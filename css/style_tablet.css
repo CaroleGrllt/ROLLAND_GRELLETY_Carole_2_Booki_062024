@@ -30,19 +30,17 @@
         margin-right: 0;
     }
 
-
-
-    /*A MODIFIER CE QUI SUIT*/
-
-
-    .hebergements-and-populaires {
+    /****** SECTION ACCOMODATIONS ET POPULAR ***********/
+    .accomodations-and-popular {
         flex-direction: column;
     }
 
-    .hebergements {
+    /****** Hebergements ***********/
+    .accomodations {
         width: 100%;
     }
 
+    /****** Populaires ***********/
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -54,16 +52,10 @@
         justify-content: space-between;
     }
 
-    .populaires-cards a {
+    .populaires-cards .card {
         width: 30%;
+        margin-top: 20px;
     }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
 }
 
