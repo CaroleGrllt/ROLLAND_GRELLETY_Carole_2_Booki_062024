@@ -1,4 +1,5 @@
-/****** General ***********/
+/*** GENERAL ***/
+
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -67,6 +68,7 @@ a {
     color: var(--main-bg-color)
 }
 
+
 /*** HEADER ***/
 
 header {
@@ -82,7 +84,6 @@ header {
     width: 61px;
     height: 19px;
 }
-
 
 nav ul {
     margin: 0;
@@ -115,13 +116,15 @@ nav li:hover .nav-link {
     color: #0065FC;
 }
 
-/****** MAIN ******/
+
+/*** MAIN ***/
 
 main {
     margin: 0 auto;
 }
 
-/****** SECTION SEARCH *********/
+
+/*** SECTION SEARCH ***/
     
 .search-first-container {
     display: flex;
@@ -259,7 +262,7 @@ form button {
 }
 
 .fa-money-bill-wave, .fa-person, .fa-heart, .fa-fire, .fa-info {
-    color: #3565fc;
+    color: #0065FC;
 }
 
 .fa-info {
@@ -295,12 +298,12 @@ form button {
     margin: 0;
 }
 
-/****** SECTION ACCOMODATIONS ET POPULAR ***********/
+
+/*** SECTION HEBERGEMENTS ET POPULAIRES ***/
 
 .accomodations-and-popular {
     display: flex;
     justify-content: space-between;
-
 }
 
 .accomodations-and-popular .background1, .accomodations-and-popular .background2  {
@@ -310,7 +313,9 @@ form button {
     box-sizing: border-box;
 }
 
-/****** Hebergements ***********/
+
+/*** Hebergements ***/
+
 .accomodations {
     width: 65%;
     display: flex;
@@ -354,8 +359,7 @@ form button {
     height: 120px;
     object-fit: cover;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-   
+    border-top-right-radius: 20px; 
 }
 
 .accomodations-description {
@@ -393,7 +397,9 @@ form button {
     font-weight: 700;
 }
 
-/****** Populaires ***********/
+
+/*** Populaires ***/
+
 .populaires {
     width: 32%;
 }
@@ -445,6 +451,7 @@ form button {
     margin-bottom: 5px;
 }
 
+
 /*** SECTION ACTIVITES ***/
 
 .activities {
@@ -465,8 +472,7 @@ form button {
 .activities-container-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 30px;
-    
+    grid-gap: 30px;  
 }
 
 .activities-container-content-articles {
@@ -488,6 +494,7 @@ form button {
     font-size: 16px;
     color: #000;
 }
+
 
 /*** FOOTER ***/
 
